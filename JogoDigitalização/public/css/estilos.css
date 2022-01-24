@@ -1,0 +1,40 @@
+.campo-digitacao{
+    font-size: 20px;
+    height: 130px;
+    border: 3px solid black;
+}
+.campo-digitacao-dasabilitado{
+    background-color:silver;
+}
+.icones{
+    vertical-align: middle;
+}
+.campo-digitacao-certo{
+    border: 4px solid green;
+}
+.campo-digitacao-errado{
+    border: 4px solid red;
+}
+
+.placar-visivel{
+    display: none;
+}
+
+body{
+    overflow: scroll;
+}
+
+#erro{
+    color: red;
+    display: none;
+}
+#spinner{
+    display: none;
+}
+#escolherFrase{
+    width: 50px;
+}
+
+#botao-sync{
+    float: right
+}
